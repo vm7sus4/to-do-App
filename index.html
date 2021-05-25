@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+
+    <body>
+        <div id="canvas" class="centre">
+            <div class="row">
+                <div class="col">
+                    <h1>To Do's</h1>
+                    <p>
+                        Enter text in the input field to add items to your list
+                    </p>
+                    <p>Click the item to mark it as complete</p>
+                    <p>Click 'x' to remove an item from your list</p>
+                </div>
+            </div>
+            <div class="row">
+                <input
+                    type="text"
+                    placeholder="Type something..."
+                    id="to-do"
+                />
+                <button id="add">Add</button>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div id="results"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
